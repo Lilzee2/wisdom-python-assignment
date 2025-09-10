@@ -10,9 +10,9 @@ cordinate = (6.5244, 3.3792)
 is_capital = False
 
 print('City:', city_name, 'type:', type(city_name))
-print('City:', population, 'type:', type(population))
-print('City:', cordinate, 'type:', type(cordinate))
-print('City:', is_capital, 'type:', type(is_capital))
+print('population:', population, 'type:', type(population))
+print('cordinate:', cordinate, 'type:', type(cordinate))
+print('is_capital:', is_capital, 'type:', type(is_capital))
 
 area = 1000
 population_density = population/area
@@ -205,3 +205,4 @@ except ZeroDivisionError:
 finally:
 
     print("Calculation completed")
+
